@@ -1,0 +1,108 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+/*for mobile first*/
+
+body{
+width: 100vw;
+height: 100vh;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+    a{
+        text-decoration: none;
+        padding: 5px;
+        color: #016690;
+    }
+}
+header{
+    height: 300px;
+    width: 100vw;
+    background-image: url(./src/images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 1,4em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+main{
+    width: 100vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+.card{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 180px;
+    background: #D1F3AB;
+    margin: 10px;
+    }
+    img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    }
+    h2{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding-top: 6px;
+        margin: 0;
+    }
+        p{
+            width: 90%;
+            font-size: 0.7em;
+            padding: 0px 3px;
+            text-align: left;
+            margin: 0%;
+        }
+    }
+
+    aside{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        .aside{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        h3{
+            font-weight: bold;
+            font-size: 1em;
+        }
+        p{
+            width: 90%;
+            font-size: 0.6em;
+            padding: 0px 3px;
+            text-align: left;
+        }
+    }
+    footer{
+        background: #016690;
+        height: 50px;
+        text-align: center;
+        
+        a{text-decoration: none;
+            color: white;
+            padding: 10px;
+            line-height: 50px;
+
+
+        }
+    }
+
+    //tablet scren// 
+    
